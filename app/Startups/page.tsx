@@ -418,7 +418,7 @@ function VerticalsSection() {
               className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
             >
              <div className="flex items-center gap-3 bg-[#0A0E1F] px-6 py-5 text-white">
-                <vertical.icon className="h-6 w-6" strokeWidth={1.75} />
+               <vertical.icon className="h-6 w-6" />
                 <h3 className="font-display text-lg font-semibold">
                   {vertical.name}
                 </h3>
