@@ -488,7 +488,7 @@ function ChecklistCard({ section }: { section: ChecklistSection }) {
               return (
                 <div key={item.title} className="flex items-start gap-3">
                   <div className="mt-0.5 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-slate-100 text-indigo-600">
-                    <ItemIcon className="h-4 w-4" strokeWidth={1.75} />
+                 <ItemIcon className="h-4 w-4" />
                   </div>
                   <p className="text-sm leading-relaxed text-slate-600 md:text-base">
                     <span className="font-semibold text-slate-900">
