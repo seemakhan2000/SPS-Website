@@ -407,7 +407,7 @@ function EquityDistributionSection() {
               className="group rounded-2xl border border-indigo-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-indigo-100"
             >
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-600 group-hover:text-white">
-                <Icon className="h-5 w-5" strokeWidth={1.75} />
+             <Icon className="h-5 w-5" />
               </div>
               <h3
                 className="mt-4 text-lg font-semibold text-[#1E1B4B]"
