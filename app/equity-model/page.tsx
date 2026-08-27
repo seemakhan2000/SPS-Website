@@ -82,7 +82,7 @@ function HeroSection() {
                 <span className="font-display text-xs font-semibold text-cyan-300/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                <Icon className="h-4 w-4 text-cyan-300"  />
                 <span className="text-sm font-medium text-slate-200">
                   {label}
                 </span>
@@ -98,7 +98,7 @@ function HeroSection() {
             <div className="absolute inset-10 rounded-full border border-cyan-300/20" />
 
             <div className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-indigo-500 text-[#0A0E1F] shadow-xl shadow-indigo-500/30">
-              <Rocket className="h-7 w-7" strokeWidth={1.75} />
+              <Rocket className="h-7 w-7"  />
             </div>
 
             {heroPills.map(({ label, icon: Icon, link }, i) => {
@@ -117,7 +117,7 @@ function HeroSection() {
                     top: `calc(50% + ${y}px - 20px)`,
                   }}
                 >
-                  <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                  <Icon className="h-4 w-4 text-cyan-300"  />
                 </Link>
               );
             })}

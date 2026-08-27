@@ -83,7 +83,7 @@ function HeroSection() {
                 <span className="font-display text-xs font-semibold text-cyan-300/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                <Icon className="h-4 w-4 text-cyan-300"  />
                 <span className="text-sm font-medium text-slate-200">
                   {label}
                 </span>
@@ -99,7 +99,7 @@ function HeroSection() {
             <div className="absolute inset-10 rounded-full border border-cyan-300/20" />
 
             <div className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-indigo-500 text-[#0A0E1F] shadow-xl shadow-indigo-500/30">
-              <Rocket className="h-7 w-7" strokeWidth={1.75} />
+              <Rocket className="h-7 w-7"  />
             </div>
 
             {heroPills.map(({ label, icon: Icon, link }, i) => {
@@ -118,7 +118,7 @@ function HeroSection() {
                     top: `calc(50% + ${y}px - 20px)`,
                   }}
                 >
-                  <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                  <Icon className="h-4 w-4 text-cyan-300"  />
                 </Link>
               );
             })}
@@ -323,7 +323,7 @@ function SpinOffSection() {
           </div>
 
           <button className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-[#1E1B4B] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition-colors hover:bg-[#2A2566]">
-            <LogIn className="h-4 w-4" strokeWidth={1.75} />
+            <LogIn className="h-4 w-4"  />
             Log in
           </button>
         </div>
@@ -338,7 +338,7 @@ function SpinOffSection() {
           {steps.map(({ title, icon: Icon, body }, i) => (
             <li key={title} className="relative flex gap-5 md:gap-6">
               <div className="relative z-10 flex h-10 w-10 flex-none items-center justify-center rounded-full border border-indigo-100 bg-white shadow-sm md:h-12 md:w-12">
-                <Icon className="h-4.5 w-4.5 text-indigo-500 md:h-5 md:w-5" strokeWidth={1.75} />
+                <Icon className="h-4.5 w-4.5 text-indigo-500 md:h-5 md:w-5"  />
                 <span className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#1E1B4B] font-display text-[10px] font-semibold text-cyan-300">
                   {i + 1}
                 </span>
@@ -378,7 +378,7 @@ function SpinOffSection() {
             </p>
             <button className="group mt-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-5 py-2.5 text-sm font-medium text-slate-100 backdrop-blur-sm transition-colors hover:border-cyan-300/40 hover:bg-white/[0.1]">
               Start your equity model
-              <ArrowRight className="h-4 w-4 text-cyan-300 transition-transform group-hover:translate-x-0.5" strokeWidth={1.75} />
+              <ArrowRight className="h-4 w-4 text-cyan-300 transition-transform group-hover:translate-x-0.5"  />
             </button>
           </div>
         </div>

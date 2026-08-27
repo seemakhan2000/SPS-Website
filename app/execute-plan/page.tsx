@@ -88,7 +88,7 @@ function HeroSection() {
                 <span className="font-display text-xs font-semibold text-cyan-300/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                <Icon className="h-4 w-4 text-cyan-300"  />
                 <span className="text-sm font-medium text-slate-200">
                   {label}
                 </span>
@@ -104,7 +104,7 @@ function HeroSection() {
             <div className="absolute inset-10 rounded-full border border-cyan-300/20" />
 
             <div className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-indigo-500 text-[#0A0E1F] shadow-xl shadow-indigo-500/30">
-              <Rocket className="h-7 w-7" strokeWidth={1.75} />
+              <Rocket className="h-7 w-7"  />
             </div>
 
             {heroPills.map(({ label, icon: Icon, link }, i) => {
@@ -123,7 +123,7 @@ function HeroSection() {
                     top: `calc(50% + ${y}px - 20px)`,
                   }}
                 >
-                  <Icon className="h-4 w-4 text-cyan-300" strokeWidth={1.75} />
+                  <Icon className="h-4 w-4 text-cyan-300"  />
                 </Link>
               );
             })}
@@ -404,7 +404,7 @@ function TrailItem({
       {/* Rail */}
       <div className="relative flex flex-col items-center">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-cyan-400 text-white shadow-lg shadow-indigo-500/20 md:h-14 md:w-14">
-          <Icon className="h-5 w-5 md:h-6 md:w-6" strokeWidth={1.75} />
+          <Icon className="h-5 w-5 md:h-6 md:w-6"  />
         </div>
         {!isLast && (
           <div className="mt-2 w-px flex-1 bg-gradient-to-b from-indigo-200 to-transparent" />
@@ -450,7 +450,7 @@ function ClosingSection() {
     <section className="bg-[#F5F4FF]">
       <div className="mx-auto max-w-3xl px-6 py-14 text-center">
         <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 to-indigo-500 text-white shadow-lg shadow-indigo-500/20">
-          <Rocket className="h-6 w-6" strokeWidth={1.75} />
+          <Rocket className="h-6 w-6"  />
         </div>
         <p className="text-sm leading-relaxed text-slate-600 md:text-base">
           Executing a startup plan is a demanding and dynamic process.
