@@ -81,7 +81,10 @@ const heroPills = [
 
 type Vertical = {
   name: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: React.ComponentType<{
+    className?: string;
+    strokeWidth?: number;
+  }>;
   description: string;
   tags: string[];
   accent: string;
@@ -151,10 +154,12 @@ const verticals: Vertical[] = [
     accent: "from-cyan-500 to-sky-500",
   },
 ];
-
 type TechCard = {
   name: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: React.ComponentType<{
+    className?: string;
+    strokeWidth?: number;
+  }>;
   description: string;
   points?: string[];
 };
